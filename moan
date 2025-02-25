@@ -26,7 +26,7 @@ about:AddParagraph("您当前服务器的ID"," "..game.GameId.."")
 about:AddParagraph("动作集全部来自于油管")
 about:AddParagraph("作者qq🐧  195009771")
 about:AddParagraph("官方QQ群聊  864791311")
-about:AddParagraph("更新內容（一个一拳的动作集）")
+about:AddParagraph("更新內容（一拳的动作集）")
 about:AddParagraph("作者L")
 
 local Tab = Window:MakeTab({
@@ -314,6 +314,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LolnotaKid/NarutoBeat
 
 end
 })
+Tab:AddButton({
+	Name = "CHOI JONG IN",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nil071n/fireman/refs/heads/main/TSB"))()
+
+end
+})
 local Tab = Window:MakeTab({
   Name = "饿狼专区",
   Icon = "rbxassetid://7734068321",
@@ -560,6 +568,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/ref
 
 end
 })
+Tab:AddButton({
+	Name = "John Doe",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Luckyfromyoutube/JohnDoe/refs/heads/main/TSBMODEL"))()
+
+end
+})
 local Tab = Window:MakeTab({
   Name = "索尼克专区",
   Icon = "rbxassetid://7734068321",
@@ -710,6 +726,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Qaiddanial2904/Main/r
 
 end
 })
+Tab:AddButton({
+	Name = "idk",
+	Callback = function()
+	
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GreatestLime4K/mahitotsb/refs/heads/main/Protected_2289773779225570.txt'))()
+
+end
+})
 local Tab = Window:MakeTab({
   Name = "水龙专区",
   Icon = "rbxassetid://7734068321",
@@ -781,6 +805,14 @@ Tab:AddButton({
 	Callback = function()
 	
 loadstring(game:HttpGet("https://pastebin.com/CjwQ3dsN"))()
+
+end
+})
+Tab:AddButton({
+	Name = "月亮",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/082id370lukcf38u96/my-scripts/refs/heads/main/yes"))()
 
 end
 })
@@ -988,7 +1020,7 @@ Tab:AddButton({
 	Name = "别人帮你口",
 	Callback = function()
 	
-loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FE-FACEBANG-28199"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AKadminlol/Facefuck/refs/heads/main/CreditsbyAK"))()
 
 end
 })
