@@ -335,6 +335,14 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69
 
 end
 })
+Tab:AddButton({
+	Name = "SJW",
+	Callback = function()
+	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hamletirl/sunjingwoo/refs/heads/main/sunjingwoo"))()
+
+end
+})
 local Tab = Window:MakeTab({
   Name = "饿狼专区",
   Icon = "rbxassetid://7734068321",
