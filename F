@@ -26,7 +26,7 @@ about:AddParagraph("您当前服务器的ID"," "..game.GameId.."")
 about:AddParagraph("动作集全部来自于油管")
 about:AddParagraph("作者qq🐧  195009771")
 about:AddParagraph("官方QQ群聊  864791311")
-about:AddParagraph("更新內容（④角色饿狼的DIO一拳的MANGA SUKUNA）")
+about:AddParagraph("更新內容（角色饿狼的DIO一拳的MANGA SUKUNA）")
 about:AddParagraph("作者L")
 
 local Tab = Window:MakeTab({
@@ -881,7 +881,10 @@ local Tab = Window:MakeTab({
   PremiumOnly = false
   })
   Tab:AddLabel("tsb四角色合集动作集")
-  
+Tab:AddButton({
+	Name = "4角色",
+	Callback = function()
+	
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/SG_DEMO.lua"))()
 
 end
